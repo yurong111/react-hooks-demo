@@ -14,6 +14,7 @@ module.exports = env => {
       path: path.join(__dirname, 'dist/'),
       filename: '[name].[hash:8].js',
       chunkFilename: '[name].[chunkhash:8].js',
+      publicPath: '/'
     },
     module: {
       rules: [
